@@ -10,7 +10,7 @@ const SITE_URL       = process.env.SITE_URL               || "https://affluentco
 // ── PhonePe PRODUCTION API Endpoints ───────────────────────────────────────
 //    UAT would use: api-preprod.phonepe.com — we are NOT using that.
 const PHONEPE_HOST  = "api.phonepe.com";
-const TOKEN_PATH    = "/apis/identity-manager/v1/oauth/token";
+const TOKEN_PATH    = "/https://api.phonepe.com/apis/identity-manager/v1/oauth/token";
 const PAY_PATH      = "/apis/pg/checkout/v2/pay";
 
 function statusPath(merchantOrderId) {
